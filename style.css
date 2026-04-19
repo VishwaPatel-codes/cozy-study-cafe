@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: #c4c3e3;
+    background: #87956f;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,19 +11,26 @@ body {
     height: 768px;
     position: relative;
     overflow: hidden;
+    background: #87956f;
 }
 .wall {
     width: 100%;
     height: 558px;
-    background-color: #87956f;
 }
 .line {
     width: 100%;
-    height: 7px;
+    height: 2px;
     background: #fdf8e2
 }
 .floor {
     width: 100%;
     height: 206px;
     background: #d5c6aa;
+}
+.window {
+    position: absolute;
+    width: 250px;
+    top: 100px;
+    left: 80px;
+    image-rendering: pixelated;
 }
