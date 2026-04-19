@@ -34,3 +34,25 @@ body {
     left: 80px;
     image-rendering: pixelated;
 }
+.bookshelf {
+    position: absolute;
+    width: 280px;
+    height: 290px;
+    top: 150px;
+    left: 300px;
+    image-rendering: pixelated;
+}
+.sofa {
+    position: absolute;
+    width: 250px;
+    left: 340px;
+    top: 430px;
+    image-rendering: pixelated;
+}
+.cat {
+    position: absolute;
+    width: 90px;
+    left: 280px;
+    top: 480px;
+    image-rendering: pixelated;
+}
