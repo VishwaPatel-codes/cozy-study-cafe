@@ -115,6 +115,7 @@ body {
     background-image: url("assets/pomodoro/background.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    cursor: move;
 }
 .pomodoro-content {
     position: absolute;
